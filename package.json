@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### basic test coverage for  axon-rpc (v0.0.3)  [![npm package](https://img.shields.io/npm/v/npmtest-axon-rpc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-axon-rpc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-axon-rpc.svg)](https://travis-ci.org/npmtest/node-npmtest-axon-rpc)",
+    "description": "#### basic test coverage for  [axon-rpc (v0.0.3)](https://github.com/visionmedia/axon-rpc)  [![npm package](https://img.shields.io/npm/v/npmtest-axon-rpc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-axon-rpc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-axon-rpc.svg)](https://travis-ci.org/npmtest/node-npmtest-axon-rpc)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "utility2": "kaizhu256/node-utility2#alpha"

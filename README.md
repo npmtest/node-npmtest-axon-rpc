@@ -1,6 +1,6 @@
 # npmtest-axon-rpc
 
-#### basic test coverage for  axon-rpc (v0.0.3)  [![npm package](https://img.shields.io/npm/v/npmtest-axon-rpc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-axon-rpc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-axon-rpc.svg)](https://travis-ci.org/npmtest/node-npmtest-axon-rpc)
+#### basic test coverage for  [axon-rpc (v0.0.3)](https://github.com/visionmedia/axon-rpc)  [![npm package](https://img.shields.io/npm/v/npmtest-axon-rpc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-axon-rpc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-axon-rpc.svg)](https://travis-ci.org/npmtest/node-npmtest-axon-rpc)
 
 #### Remote procedure calls built on top of axon.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-axon-rpc/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-axon-rpc/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-axon-rpc/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-axon-rpc/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-axon-rpc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-axon-rpc/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-axon-rpc/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-axon-rpc/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-axon-rpc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-axon-rpc/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-axon-rpc/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-axon-rpc/build/coverage.html/index.html)
 
@@ -35,15 +35,15 @@
 ```json
 
 {
-    "name": "axon-rpc",
-    "version": "0.0.3",
-    "description": "Remote procedure calls built on top of axon.",
-    "keywords": [
-        "axon",
-        "rpc",
-        "cloud"
-    ],
-    "author": "TJ Holowaychuk <tj@learnboost.com>",
+    "author": {
+        "name": "TJ Holowaychuk"
+    },
+    "bin": {
+        "arpc": "bin/arpc"
+    },
+    "bugs": {
+        "url": "https://github.com/visionmedia/axon-rpc/issues"
+    },
     "contributors": [
         {
             "name": "Bret Copeland",
@@ -51,25 +51,45 @@
         }
     ],
     "dependencies": {
-        "debug": "*",
-        "commander": "1.0.5"
+        "commander": "1.0.5",
+        "debug": "*"
     },
+    "description": "Remote procedure calls built on top of axon.",
     "devDependencies": {
         "axon": "2.0.0",
         "better-assert": "*",
         "mocha": "*"
     },
-    "bin": {
-        "arpc": "bin/arpc"
+    "directories": {},
+    "dist": {
+        "shasum": "f12195d911d6bdd9ccc37b2c094d52d2d9650593",
+        "tarball": "https://registry.npmjs.org/axon-rpc/-/axon-rpc-0.0.3.tgz"
     },
+    "homepage": "https://github.com/visionmedia/axon-rpc",
+    "keywords": [
+        "axon",
+        "rpc",
+        "cloud"
+    ],
     "main": "index",
+    "maintainers": [
+        {
+            "name": "tjholowaychuk"
+        },
+        {
+            "name": "bretcope"
+        }
+    ],
+    "name": "axon-rpc",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/visionmedia/axon-rpc.git"
+    },
     "scripts": {
         "test": "mocha --reporter spec"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/visionmedia/axon-rpc.git"
-    }
+    "version": "0.0.3"
 }
 ```
 
